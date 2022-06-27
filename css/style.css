@@ -1,0 +1,19 @@
+body{
+    background-color: blue;
+}
+.container{
+    display: flex;
+}
+.container div{
+    flex-basis: 1/3fr;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1rem;
+    border: 0.5rem solid black;
+    padding: 1rem;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
+    background-color: darkgreen;
+}
